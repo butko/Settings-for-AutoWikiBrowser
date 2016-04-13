@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <AutoWikiBrowserPreferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xml:space="preserve" Version="5.8.5.1">
   <Project>commons</Project>
   <LanguageCode>en</LanguageCode>
@@ -9,38 +9,6 @@
     <ListSource>PD-exempt|PD-exempt (possible wrong license)</ListSource>
     <SelectedProvider>CategoryRecursiveOneLevelListProvider</SelectedProvider>
     <ArticleList>
-      <Article NameSpaceKey="6">
-        <PreProcessed>false</PreProcessed>
-        <Name>File:A popular demonstration in Erivan Square, Tiflis. February, 1917.jpg</Name>
-      </Article>
-      <Article NameSpaceKey="6">
-        <PreProcessed>false</PreProcessed>
-        <Name>File:A.Bakıxanov adına Tarix İnstitutu-loqo.gif</Name>
-      </Article>
-      <Article NameSpaceKey="6">
-        <PreProcessed>false</PreProcessed>
-        <Name>File:A.İ.Qarayev adına Fiziologiya İnstitutu-loqo.jpg</Name>
-      </Article>
-      <Article NameSpaceKey="6">
-        <PreProcessed>false</PreProcessed>
-        <Name>File:A3-04南昌市轨道交通规划远景线网图.jpg</Name>
-      </Article>
-      <Article NameSpaceKey="6">
-        <PreProcessed>false</PreProcessed>
-        <Name>File:A3-05南昌市轨道交通2020年规划线网图.jpg</Name>
-      </Article>
-      <Article NameSpaceKey="6">
-        <PreProcessed>false</PreProcessed>
-        <Name>File:A3-06南昌市轨道交通近期建设规划图.jpg</Name>
-      </Article>
-      <Article NameSpaceKey="6">
-        <PreProcessed>false</PreProcessed>
-        <Name>File:A4 terit.jpg</Name>
-      </Article>
-      <Article NameSpaceKey="6">
-        <PreProcessed>false</PreProcessed>
-        <Name>File:AAA gunner CCCP.jpg</Name>
-      </Article>
       <Article NameSpaceKey="6">
         <PreProcessed>false</PreProcessed>
         <Name>File:ALB Qarku i Beratit COA.png</Name>
