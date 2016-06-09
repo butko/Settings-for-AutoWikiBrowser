@@ -1,0 +1,5 @@
+Include:
+Magazines of Russia by name|Magazines of the Russian Empire by name
+
+Exclude:
+Magazines of Russia to be categorised by name|Offprints from the magazines of Russia|Supplements to magazines of Russia
