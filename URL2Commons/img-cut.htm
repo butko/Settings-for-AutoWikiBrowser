@@ -1,0 +1,69 @@
+<style>
+textarea {width:100%; margin:20px auto; height:100px;}
+</style>
+<ol>
+<li>Получить код всех фотографий в альбоме. Не забыть поставить размер "оригинал"
+<li>Добавить этот код в <a href="source.htm">source.htm</a>
+<li>Вставить получившийся список на <a href="http://tools.wmflabs.org/url2commons/">url2commons</a>
+</ol>
+
+<form>
+<input type="text" id="prefix">
+<textarea>Input text here</textarea>
+</form>
+
+<div id="results">тут будут результаты теста API</div>
+
+
+<!--
+Для тестирования https://fotki.yandex.ru/users/humus777/album/333358/share/
+Нужно сделать:
+1) Пустые имена
+2) Префикс, суффикс в инпутах
+3) Одинаковые имена
+4) Подстановка имени альбома
+5) Обработку расширений
+-->
+
+<div id="content"></div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+
+
+<script>
+        $('form').find('select, input, textarea').change(function(){
+            $('#results').text('API работает');
+        })
+
+
+
+// $("#content").load("../source.htm", function(response, status, xhr) {
+  // error handling
+//  if(status == "error") {
+    //$("#content").html("An error occured: " + xhr.status + " " + xhr.statusText);
+  //}
+//});
+
+var enablealbumtitle=true;
+var prefix='Дневник путешествия в Московию';
+var suffix='';
+var enablecounter=true;
+var counter=0;
+$(function(){
+    // цикл проходит все теги <a> на странице
+    $('img').each(function(){
+        //if (enablealbumtitle) {prefix=}
+        if (enablecounter) {
+        counter=counter+1;
+        counterprefix=' ';
+        }
+        else {
+        counterprefix='';
+        counter='';
+        };
+        document.write ($(this).prop("src") + ' ' + prefix + $(this).prop("alt")+suffix+counterprefix+counter+'.jpg<br/>');
+		$(this).hide(); // скрываем элемент
+    });
+});
+</script>
