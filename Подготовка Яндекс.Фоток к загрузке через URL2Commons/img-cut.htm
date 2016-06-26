@@ -1,3 +1,9 @@
+<!------------------------------------------------------------------------------------------------>
+
+Сюда вставляем код с фотографиями
+
+<!------------------------------------------------------------------------------------------------>
+
 <ol>
 <li>Получить код всех фотографий в альбоме. Не забыть поставить размер "оригинал"
 <li>Добавить этот код в <a href="source.htm">source.htm</a>
@@ -21,20 +27,13 @@
 
 
 <script>
-$("#content").load("../source.htm", function(response, status, xhr) {
-  // error handling
-  if(status == "error") {
-    $("#content").html("An error occured: " + xhr.status + " " + xhr.statusText);
-  }
-});
-
 var enablealbumtitle=true;
-var prefix='Дневник путешествия в Московию';
+var prefix='1907. ';
 var suffix='';
-var enablecounter=true;
+var enablecounter=false;
 var counter=0;
 $(function(){
-    // цикл проходит все теги <a> на странице
+    // цикл проходит все теги <img> на странице
     $('img').each(function(){
         //if (enablealbumtitle) {prefix=}
         if (enablecounter) {
@@ -49,4 +48,5 @@ $(function(){
 		$(this).hide(); // скрываем элемент
     });
 });
+
 </script>
